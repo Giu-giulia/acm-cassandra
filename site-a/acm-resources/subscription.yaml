@@ -2,15 +2,15 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
   namespace: cassandra
-  name: cassandra
+  name: cassandra-a
   annotations:
     apps.open-cluster-management.io/git-path: site-a/cassandra-a
     apps.open-cluster-management.io/git-branch: main
   labels:
-    app: cassandra
+    app: cassandra-a
 spec:
   channel: cassandra/cassandra-app-latest
   placement:
     placementRef:
-      name: cassandra
+      name: cassandra-a
       kind: PlacementRule
