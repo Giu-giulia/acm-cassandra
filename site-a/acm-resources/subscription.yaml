@@ -4,7 +4,7 @@ metadata:
   namespace: cassandra
   name: cassandra
   annotations:
-    apps.open-cluster-management.io/git-path: site-a/cassandra
+    apps.open-cluster-management.io/git-path: site-a/cassandra-a
     apps.open-cluster-management.io/git-branch: main
   labels:
     app: cassandra
