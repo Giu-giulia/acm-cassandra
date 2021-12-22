@@ -27,7 +27,7 @@ spec:
             name: cql
         env:
           - name: CASSANDRA_SEEDS
-            value: cassandra-a-0.cassandra.default.svc.cluster.local,cassandra-a-1.cassandra.default.svc.cluster.local,cassandra-b-0.cassandra.default.svc.cluster.local
+            value: cassandra-a-0.cassandra.svc.clusterset.local
           - name: MAX_HEAP_SIZE 
             value: 512M
           - name: HEAP_NEWSIZE
