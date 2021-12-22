@@ -2,9 +2,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   namespace: cassandra
-  name: cassandra
+  name: cassandra-b
   labels:
-    app: cassandra
+    app: cassandra-b
 spec:
   clusterSelector:
     matchLabels:
