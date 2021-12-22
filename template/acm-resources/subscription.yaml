@@ -4,11 +4,11 @@ metadata:
   namespace: cassandra
   name: cassandra
   annotations:
-    apps.open-cluster-management.io/git-path: cassandra
+    apps.open-cluster-management.io/git-path: template/cassandra
   labels:
     app: cassandra
 spec:
-  channel: cassandra
+  channel: template/cassandra
   placement:
     placementRef:
       name: cassandra
