@@ -13,7 +13,6 @@ spec:
       labels:
         app: cassandra
     spec:
-      schedulerName: stork
       containers:
       - name: cassandra-b
         image: cassandra:3
