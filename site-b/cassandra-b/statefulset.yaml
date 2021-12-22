@@ -15,7 +15,7 @@ spec:
     spec:
       schedulerName: stork
       containers:
-      - name: cassandra
+      - name: cassandra-b
         image: cassandra:3
         ports:
           - containerPort: 7000
