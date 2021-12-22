@@ -6,11 +6,11 @@ metadata:
   name: cassandra
   annotations:
     apps.open-cluster-management.io/git-branch: main
-    apps.open-cluster-management.io/git-path: ./cassandra
+    apps.open-cluster-management.io/git-path: cassandra
   labels:
     app: cassandra
 spec:
-  channel: ./cassandra
+  channel: cassandra-app-latest
   placement:
     placementRef:
       name: cassandra
