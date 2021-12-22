@@ -10,7 +10,7 @@ metadata:
   labels:
     app: cassandra
 spec:
-  channel: cassandra
+  channel: ./cassandra
   placement:
     placementRef:
       name: cassandra
