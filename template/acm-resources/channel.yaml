@@ -4,7 +4,7 @@ kind: Channel
 metadata:
   name: cassandra-app-latest
   namespace: cassandra
-    annotations:
+  annotations:
     apps.open-cluster-management.io/github-path: template/cassandra
 spec:
   type: GitHub
