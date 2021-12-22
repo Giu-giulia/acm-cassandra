@@ -2,10 +2,10 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: cassandra-app-latest
+  name: cassandra-app-latest-a
   namespace: cassandra
   annotations:
-    apps.open-cluster-management.io/github-path: template/cassandra
+    apps.open-cluster-management.io/github-path: site-a/cassandra-a
 spec:
   type: GitHub
   pathname: https://github.com/Giu-giulia/acm-cassandra.git
