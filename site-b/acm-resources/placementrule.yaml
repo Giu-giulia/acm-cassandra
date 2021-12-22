@@ -8,4 +8,4 @@ metadata:
 spec:
   clusterSelector:
     matchLabels:
-      clusterset: dr-2
+      name: gabcchin-aws-passive
