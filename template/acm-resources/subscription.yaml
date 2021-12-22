@@ -8,7 +8,7 @@ metadata:
   labels:
     app: cassandra
 spec:
-  channel: template/cassandra
+  channel: cassandra/cassandra-app-latest
   placement:
     placementRef:
       name: cassandra
