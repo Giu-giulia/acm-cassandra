@@ -1,0 +1,9 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: cassandra
+  namespace: cassandra
+spec:
+  type: GitHub
+  pathname: https://github.com/Giu-giulia/acm-cassandra.git
