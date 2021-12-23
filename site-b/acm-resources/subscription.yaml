@@ -12,5 +12,5 @@ spec:
   channel: cassandra/cassandra-app-latest-b
   placement:
     placementRef:
-      name: cassandra
+      name: cassandra-b
       kind: PlacementRule
