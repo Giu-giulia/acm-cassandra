@@ -14,12 +14,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  labels:
-    app: cassandra-a-0
   name: cassandra-a-0
 spec:
   clusterIP: None
   ports:
     - port: 7000
   selector:
-    name: cassandra-a-0
+    statefulset.kubernetes.io/pod-name: cassandra-a-0
